@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: "digital";
+    src: url('../fonts/digital.ttf');
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 215px;
+    border: 2px solid black;
+    background-color: rgb(10, 166, 52);
+}
+
+section {
+    flex: 1;
+    padding-bottom: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 1px solid black;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+#screen {
+    width: 210px;
+    height: 50px;
+    border: 2px solid black;
+    display: block;
+    font-size: 33px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgba(84, 84, 84, 0.853);
+    font-family: "digital";
+    box-sizing: border-box;
+    padding: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: black;
+}
+
+#screen2 {
+    width: 210px;
+    height: 34px;
+    border: 2px solid rgb(40, 38, 38);
+    display: block;
+    font-size: 15px;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgba(124, 117, 117, 0.853);
+    font-family: "digital";
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 10px 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.purple {
+    background-color: rgb(105, 50, 156);
+}
+
+.red {
+    background-color: rgb(147, 10, 104);
+}
+
+.yellow {
+    background-color: rgb(209, 128, 14);
+}
+
+#ac, #bs {
+    width: 50px;
+    height: 25px;
+    color: rgb(19, 18, 18);
+    border: 1px solid black;
+}
+
+.smaller_font{
+    font-size: 19px !important;
+    text-align: center !important;
+    padding-top: 7% !important;
+}
