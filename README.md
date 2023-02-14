@@ -1,3 +1,3 @@
-link to access the calcultor
+link to access the calcultor : 
 
 https://idasitich.github.io/newCalculator/
